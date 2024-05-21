@@ -123,11 +123,13 @@ body {
 }
 
 .card {
-  flex: 0 0 150px;
+  flex: 0 0 10vw;
+  min-width: 120px;
 }
 
 .card .image {
-  height: 150px;
+  height: 10vw;
+  min-height: 120px;
   background-color: #ffffff;
   border: 5px solid #3882f6;
   border-radius: 10px;
