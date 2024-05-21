@@ -17,6 +17,7 @@ body {
 .nav-bar {
   display: flex;
   flex: 1 1 auto;
+  gap: 20px;
   justify-content: space-between;
 }
 
@@ -54,7 +55,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1 1 50%;
-  gap: 10px;
+  gap: 5px;
   padding: 10px 0;
 }
 
@@ -67,12 +68,15 @@ body {
 
 .welcome-message button {
   width: fit-content;
-  padding: 6px 18px;
+  margin: 10px 0;
+  padding: 6px 30px;
   border-radius: 8px;
   border-style: none;
+  font-size: 18px;
   color: #ffffff;
   font-weight: bolder;
   background-color: #3882f6;
+  cursor: pointer;
 }
 
 .welcome-message .main-text {
@@ -84,6 +88,7 @@ body {
 .welcome-message .image {
   display: flex;
   flex: 1 1 50%;
+  min-height: 250px;
   background: #777676;
   align-items: center;
   justify-content: center;
@@ -114,7 +119,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 60px;
 }
 
 .card {
@@ -129,5 +134,104 @@ body {
 }
 
 .card p {
-    margin-top: 8px;
+  margin-top: 8px;
+}
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  padding: 0 15%;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote-container {
+  display: flex;
+  flex: 1 1 auto;
+  margin: 100px 0 70px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container .content {
+  width: 57vw;
+  margin: 0;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote-container .author {
+  align-self: flex-end;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.action-section {
+  display: flex;
+  padding: 0 15%;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+
+.action-container {
+  display: flex;
+  flex: 1 1 auto;
+  margin: 70px 0;
+}
+
+.action-message {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+  background-color: #3882F6;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+
+
+.action-message .title {
+  margin: 0 0 5px 0;
+  padding: 5px 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action-message .main-text {
+  margin: 0;
+  padding: 5px 20px;
+  font-size: 18px;
+}
+
+.action-message button {
+  width: fit-content;
+  padding: 6px 30px;
+  border-radius: 8px;
+  border-style: none;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: #3882F6;
+  cursor: pointer;
+}
+
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15%;
+  background-color: #1f2937;
+}
+
+.footer-section .text {
+  margin: 30px 0;
+  color: #FFFFFF;
+  font-size: 18px;
 }
